@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: #d10a0a;   
+  color: white;
+}
+
+header {
+  display: flex;          
+  align-items: center;    
+  background: black;
+  padding: 20px 48px;
+}
+
+.logo {
+  width: 295px;
+  height: 195px;
+}
+
+header h1 {
+  flex: 1;                
+  margin: 0 40px;
+  font-size: 56px;
+}
+
+.foto-profil {
+  width: 145px;
+  height: 170px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);   
+  gap: 36px 24px;                          
+  padding: 36px 48px;
+}
+
+.film {
+  text-align: center;     
+}
+
+.poster {
+  width: 165px;
+  height: 230px;
+  background: #333;       
+}
+
+.film h2 {
+  font-size: 18px;
+  text-transform: uppercase;   
+}
+
+.film a {
+  display: block;
+  color: #4a8df0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+link-about {
+  margin-top: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 30px;
+}
+
